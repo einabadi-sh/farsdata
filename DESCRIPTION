@@ -2,13 +2,15 @@ Package: farsdata
 Type: Package
 Title: reporting fars data
 Version: 1.1.1
+Date: 2017-11-20
+Depends: R (>= 3.0.0)
 Author: Shahab Einabadi
-Maintainer: The package maintainer <sh.einabadi@outlook.comt>
+Maintainer: Shahab Einabadi <sh.einabadi@outlook.com>
 Description: More about what it does will be added soon.
 License: GPL
 Encoding: UTF-8
-LazyData: true
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 Imports: readr, dplyr, maps, graphics, tidyr
+URL: https://github.com/einabadi-sh/farsdata
