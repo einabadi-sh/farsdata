@@ -21,3 +21,6 @@ This is a basic example which shows you how to solve a common problem:
 ```
 
 [![Travis-CI Build Status](https://travis-ci.org/einabadi-sh/farsdata.svg?branch=master)](https://travis-ci.org/einabadi-sh/farsdata)
+
+
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/einabadi-sh/farsdata?branch=master&svg=true)](https://ci.appveyor.com/project/einabadi-sh/farsdata)
