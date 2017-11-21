@@ -1,5 +1,5 @@
 ---
-title: "fard data reporting"
+title: "FARS data reporting"
 author: "Shahab einabadi"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
@@ -9,14 +9,16 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-The fars data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+This package is designed to create some simple reports and graphs for the FARS data. The FARS data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+## List of functions in this package
 
 
-## Vignette Info
+## Reading FARS DATA
 
 Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
 
-## Styles
+## Counting FARS data 
 
 The `html_vignette` template includes a basic CSS theme. To override this theme you can specify your own CSS in the document metadata as follows:
 
@@ -24,7 +26,7 @@ The `html_vignette` template includes a basic CSS theme. To override this theme 
       rmarkdown::html_vignette:
         css: mystyles.css
 
-## Figures
+## Plotting FARS data
 
 The figure sizes have been customised so that you can easily put two images side-by-side. 
 
@@ -47,6 +49,10 @@ You can write math expressions, e.g. $Y = X\beta + \epsilon$, footnotes^[A footn
 
 ```{r, echo=FALSE, results='asis'}
 knitr::kable(head(mtcars, 10))
+```
+
+```{r load_mtcars}
+data(mtcars)
 ```
 
 Also a quote using `>`:
