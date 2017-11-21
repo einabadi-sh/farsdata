@@ -1,4 +1,7 @@
 # farsdata
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/einabadi-sh/farsdata?branch=master&svg=true)](https://ci.appveyor.com/project/einabadi-sh/farsdata)
+
+[![Travis-CI Build Status](https://travis-ci.org/einabadi-sh/farsdata.svg?branch=master)](https://travis-ci.org/einabadi-sh/farsdata)
 
 This package is designed to create some simple reports and graphs for the FARS data. The FARS data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
 
@@ -21,5 +24,3 @@ This is a basic example which shows you how to solve a common problem:
 file <- system.file("extdata", "accident_2013.csv.bz2", package = "farsdata")
 fars_read(file)
 ```
-
-[![Travis-CI Build Status](https://travis-ci.org/einabadi-sh/farsdata.svg?branch=master)](https://travis-ci.org/einabadi-sh/farsdata)
