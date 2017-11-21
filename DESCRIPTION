@@ -9,7 +9,7 @@ Maintainer: Shahab Einabadi <sh.einabadi@outlook.com>
 Description: More about what it does will be added soon.
 License: GPL
 Encoding: UTF-8
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 Imports: readr, dplyr, maps, graphics, tidyr
