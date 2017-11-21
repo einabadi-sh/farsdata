@@ -47,7 +47,3 @@ setwd(dirname(file))
 farsdata::fars_map_state(5, 2013)
 setwd(olddir)
 ```
-
-
-## More Examples
-
