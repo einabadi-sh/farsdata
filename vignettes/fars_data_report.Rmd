@@ -35,7 +35,7 @@ setwd(olddir)
 
 ## Plotting FARS data
 
-```{r, fig.show='hold'}
+```{r}
 #library(farsdata)
 file <- system.file("extdata", "accident_2013.csv.bz2", package = "farsdata")
 olddir <- getwd()
