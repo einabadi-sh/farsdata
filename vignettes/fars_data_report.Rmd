@@ -15,7 +15,7 @@ This package is designed to create some simple reports and graphs for the FARS d
 
 
 ## Reading FARS DATA
-
+system.file("extdata", "accident_2013.csv.bz2", package = "farsdata").
 Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
 
 ## Counting FARS data 
