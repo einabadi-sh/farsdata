@@ -12,7 +12,11 @@ vignette: >
 This package is designed to create some simple reports and graphs for the FARS data. The FARS data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
 
 ## List of functions in this package
-
+* fars_read
+* make_filename
+* fars_read_years
+* fars_summarize_years
+* fars_map_state
 
 ## Reading FARS DATA
 ```{r}
